@@ -33,3 +33,8 @@ In the example above you can see 2 JSON objects with CORRECT md5 checksum (I wri
 because they are incorrect).
   
 The second endpoint accepts only GET requests with an user_id parameter. The endpoint returns  all records for given user_id.
+
+All requirements are in requirements.txt. To install all libraries run in command line:
+```pip install -r requirements.txt```
+You can run code in terminal:
+```python app.py```
