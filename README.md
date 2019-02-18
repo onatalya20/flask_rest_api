@@ -24,11 +24,12 @@ The JSON payload will be:
     ]
 
 The endpoint stores the data in a sqlite3 database.
+
 Before storing the data it makes sure that the checksum for each
 JSON object (just fields: user_id, name, date and hw) is correct and matches the original checksum in the JSON payload.
 If checksum matches the original checksum, JSON object will be written into database. If not, it will be ignored.
 
-In the example above you can se 2 JSON objects with CORRECT md5 checksum (I written these checksums instead of those generated in task,
+In the example above you can see 2 JSON objects with CORRECT md5 checksum (I written these checksums instead of those generated in task,
 because they are incorrect).
   
 The second endpoint accepts only GET requests with an user_id parameter. The endpoint returns  all records for given user_id.
