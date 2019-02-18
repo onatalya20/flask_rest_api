@@ -38,6 +38,6 @@ All requirements are in requirements.txt. To install all libraries run in comman
 
 ```pip install -r requirements.txt```
 
-You can run code in terminal:
+You can run code in terminal in root of application directory:
 
 ```python app.py```
