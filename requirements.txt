@@ -10,6 +10,7 @@ certifi==2018.11.29
 python-dotenv==0.10.1
 protobuf==3.6.1
 greenlet==0.4.15
+flask==1.0.2
 ipaddr==2.2.0
 libmc==1.1.0
 python_memcached==1.59
