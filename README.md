@@ -20,9 +20,8 @@ The JSON payload will be:
         "date": "1961-01-26T14:12:00.451765",
         "hw": "Atari ST",
         "md5checksum": "2cdaec775db46ccbf10403bf1bcb2e16"
-    },
-    
-]
+    }
+    ]
 
 The endpoint stores the data in a sqlite3 database.
 Before storing the data it makes sure that the checksum for each
